@@ -41,7 +41,7 @@ The business value from this project include the implementation of a system that
 - GridSearchCV
 - RandomizedSearchCV
 - torch
-- transformers
+- transformers.BERT
 
 ## Table of contents:
 ```
