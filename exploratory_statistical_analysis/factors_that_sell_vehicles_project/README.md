@@ -15,7 +15,58 @@ For this, we took each of the popular types we detected at the previous stage an
 
 ## Business value:
 
+The business value from this project incude an analysis of the factors that influence the pricing of a vehicle to plan advertising campaigns accordingly. 
 ## Tools and concepts used in project:
 
+- pandas
+- datetime
+- numpy
+- matplotlib.pyplot 
+- seaborn
 ## Table of contents: 
-
+```
+1  Project: What sells a car?
+  1.1  Initialization
+  1.2  Load data
+  1.3  Explore initial data
+    1.3.1  Description of data
+    1.3.2  Fixing innapropriate data types in columns
+    1.3.3  Conclusions and further steps for initial data
+  1.4  Treating missing values
+    1.4.1  odometer
+    1.4.2  model_year column
+    1.4.3  cylinders column
+    1.4.4  paint_color column
+    1.4.5  is_4w column
+  1.5  Fix data types
+    1.5.1  model_year column
+    1.5.2  cylinders column
+    1.5.3  odometer column
+    1.5.4  is_4wd column
+    1.5.5  date_posted column
+  1.6  Enrich data
+    1.6.1  weekday_posted, month_posted, year_posted, and vehicle_age columns
+    1.6.2  avg_miles_per_year
+  1.7  Check and clean data
+    1.7.1  avg_miles_per_year column
+  1.8  Study core parameters
+    1.8.1  price parameter
+    1.8.2  age parameter
+    1.8.3  avg_miles_per_year parameter
+    1.8.4  cylinders parameter
+    1.8.5  condition parameter
+  1.9  Study and treat outliers
+  1.10  Study core parameters without outliers
+    1.10.1  core parameter: price
+    1.10.2  core parameter: vehicle_age
+    1.10.3  core parameter: avg_miles_per_year
+    1.10.4  core parameter: cylinders
+    1.10.5  core parameter: condition
+  1.11  Ads lifetime
+  1.12  Average price per each type of vehicle
+  1.13  Price factors
+    1.13.1  Condition factor
+    1.13.2  paint color factor
+    1.13.3  transmission factor
+  1.14  General conclusion
+  ```
