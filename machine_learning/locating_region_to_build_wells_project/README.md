@@ -29,15 +29,18 @@ With that said, below is the structure of the project:
   2.5. Analyzing the results.
 3. Preparing for profit calculation:
   3.1. Storing all key values for calculations in separate variables.
-  3.2. Calculating the volume of reserves sufficient for developing a new well without losses. Compare the obtained value with the average volume of reserves in each region.
+  3.2. Calculating the volume of reserves sufficient for developing a new well without losses. 
+  Compare the obtained value with the average volume of reserves in each region.
   3.3. Providing the findings about the preparation for profit calculation step.
 4. Writing a function to calculate profit from a set of selected oil wells and model predictions:
   4.1. Picking the wells with the highest values of predictions.
   4.2. Summarizing the target volume of reserves in accordance with these predictions
-  4.3. Providing findings: suggest a region for oil wells' development and justify the choice. Calculate the profit for the obtained volume of reserves.
+  4.3. Providing findings: suggest a region for oil wells' development and justify the choice. 
+  Calculate the profit for the obtained volume of reserves.
 5. Calculating risks and profit for each region:
   5.1. Using the bootstrapping technique with 1000 samples to find the distribution of profit.
-  5.2. Finding average profit, 95% confidence interval and risk of losses. Loss is negative profit, calculate it as a probability and then express as a percentage.
+  5.2. Finding average profit, 95% confidence interval and risk of losses. Loss is negative profit, 
+  calculate it as a probability and then express as a percentage.
   5.3. Providing findings: suggest a region for development of oil wells and justify the choice.
 ```
 
