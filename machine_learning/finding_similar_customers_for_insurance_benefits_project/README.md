@@ -1,4 +1,4 @@
-# Project: ** Finding Similar Customers for Insurance Benefits**
+# Project: Finding Similar Customers for Insurance Benefits
 
 ## Description and Purpose of Project:
 
