@@ -30,7 +30,7 @@ The business value from this project was to attract more drivers during peak hou
 - CatBoostRegressor
 - XGBRegressor 
 - TimeSeriesSplit
-- 
+
 ## Table of contents:
 ```
 1  Project instructions/Specifications
